@@ -1,0 +1,370 @@
+* {
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 0;
+}
+
+body {
+    background-color: #F4912D;
+}
+
+/*-----------------  font  -------------*/
+
+h1 {
+    font-family: 'renner*';
+    color: aliceblue;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'renner*';
+    color: aliceblue;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'renner*';
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+a {
+    font-family: 'renner*';
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+/*----------------  parent  ------------*/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.column_content a {
+    font-size: 1em;
+}
+
+/*-----------------  child  -------------*/
+
+.column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    padding: 2vw;
+    width: 100%
+}
+
+.column_wide {
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+
+.img {
+    flex-basis: 10px;
+    flex-grow: 1;
+}
+
+.txt {
+    flex-basis: 10px;
+    flex-grow: 1;
+}
+
+.column a {
+    font-size: 1em;
+}
+
+/*------------------  menu  --------------*/
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: #F4912D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+
+.dropdown-content a:hover,
+.dropdown-content a:focus {
+    color: #202532;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #89CCE5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: aliceblue;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+    font-family: 'renner*';
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/*------------------  a1  --------------*/
+
+#a1 {
+    background-color: #202532;
+    padding-bottom: 5vw
+}
+
+
+#a1 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a1 img {
+    width: 100%;
+}
+
+
+/*------------------  a2  --------------*/
+
+#a2 {
+    background-color: #F4912D;
+    padding-bottom: 5vw
+}
+
+
+#a2 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a3  --------------*/
+
+#a3 {
+    background-color: #202532;
+    padding-bottom: 5vw
+}
+
+
+#a3 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a3 img {
+    width: 100%;
+}
+
+/*------------------  a4  --------------*/
+
+#a4 {
+    background-color: #89CCE5;
+    padding-bottom: 5vw
+}
+
+
+#a4 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+.img img {
+    width: 20vw;
+    border: 5px #F4912D solid;
+}
+
+/*------------------  a5  --------------*/
+
+#a5 {
+    background-color: #202532;
+    padding-bottom: 5vw
+}
+
+
+#a5 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a5 img {
+    width: 100%;
+}
+
+/*------------------  a6  --------------*/
+
+#a6 {
+    background-color: #F4912D;
+    padding-bottom: 5vw
+}
+
+
+#a6 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a6 img {
+    width: 100%;
+}
+
+/*------------------  a7  --------------*/
+
+#a7 {
+    background-color: #89CCE5;
+    padding-bottom: 5vw
+}
+
+
+#a7 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a7 img {
+    width: 100%;
+}
+
+/*------------------  a8  --------------*/
+
+#a8 {
+    background-color: #F4912D;
+    padding-bottom: 5vw
+}
+
+
+#a8 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a9  --------------*/
+
+#a9 {
+    background-color: #202532;
+    padding-bottom: 5vw
+}
+
+
+#a9 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a10  --------------*/
+
+#a10 {
+    background-color: #89CCE5;
+    padding-bottom: 5vw
+}
+
+
+#a10 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a11  --------------*/
+
+#a11 {
+    background-color: #F4912D;
+    padding-bottom: 5vw;
+    margin: 10vw;
+
+}
+
+#a11 img {
+    width: 45%;
+}
+
+#a11 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a12  --------------*/
+
+#a12 {
+    background-color: #202532;
+    padding-bottom: 5vw
+}
+
+
+#a12 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a12 img {
+    width: 100%;
+}
+
+/*------------------  a13  --------------*/
+
+#a13 {
+    background-color: #89CCE5;
+    padding-bottom: 5vw;
+}
+
+#a13 img {
+    width: 88vw;
+}
+
+#a13 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a14  --------------*/
+
+#a14 {
+    background-color: #89CCE5;
+    padding-bottom: 5vw
+}
+
+
+#a14 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a14 img {
+    border-radius: 50%;
+    width: 10vw;
+}
+
+#a14 .column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    padding: 2vw;
+    width: 20%
+}

@@ -1,0 +1,249 @@
+* {
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    margin: 0;
+}
+
+
+/*----------------  parent  ------------*/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.column_content a {
+    font-size: 1em;
+}
+
+
+/*-----------------  child  -------------*/
+
+.column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    padding: 2vw;
+    width: 100%
+}
+
+.column_wide {
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+
+.img {
+    flex-basis: 10px;
+    flex-grow: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.txt {
+    flex-basis: 10px;
+    flex-grow: 1;
+}
+
+.column a {
+    font-size: 1em;
+}
+
+/
+
+/*------------------  a1  --------------*/
+
+#a1 {
+    background-color: #202532;
+    padding-bottom: 5vw
+}
+
+
+#a1 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a1 img {
+    width: 100%;
+}
+
+
+
+/*body {
+    margin: 0;
+    background-image: url(mountains-forside.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 260%;
+    justify-content: center;
+    padding-top: 4em;
+    flex-basis: auto;
+
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+* {
+    color: #fff;
+    text-decoration: none;
+}
+
+background-image {
+    position: fixed;
+}
+
+*/
+
+
+#forside img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    position: absolute;
+    background-size: cover;
+    justify-content: center;
+
+
+}
+
+
+/*-----------------OM MIG------------------------*/
+#ommig img{
+     width: 100%;
+    max-width: 100%;
+    margin: 0;
+    position: absolute;
+    background-size: cover;
+    justify-content: center;
+
+}
+/*--------------------Billede 1 ----------------*/
+
+#a2 img {
+    width: 72vw;
+    max-width: 100%;
+    height: auto;
+    margin-top: 92.5vw;
+    left: 3+vw;
+    margin-left: 0vw;
+    position: absolute;
+    display: flex;
+
+}
+
+#a2 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*--------------------Billede 2 ----------------*/
+
+#a3 img {
+    width: 61.4%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 80.5vw;
+    left: 87.6vw;
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a3 .column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    width: 100%
+}
+
+/*--------------------Billede 3 ----------------*/
+
+#a4 img {
+    width: 57%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 120.9vw;
+    left: 28vw;
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a4 .column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    width: 100%
+}
+
+/*--------------------Billede 4 ----------------*/
+
+#a5 img {
+    width: 86.4%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 106.7vw;
+    left: 71.6vw;
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a5 .column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    width: 100%
+}
+
+/*--------------------Billede 5 ----------------*/
+
+#a6 img {
+    width: 48%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 141.8vw;
+    left: 30vw;
+    margin-left: 0vw;
+    position: absolute;
+
+
+}
+
+#a6 .column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    width: 100%
+}
+
+/*--------------------Billede 6 ----------------*/
+
+#a7 img {
+    width: 50.9%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 141.8vw;
+    left: 77vw;
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a7 .column {
+    flex-basis: 100px;
+    flex-grow: 1;
+
+}

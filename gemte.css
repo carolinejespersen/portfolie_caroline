@@ -1,0 +1,115 @@
+sectionwrapper_ommig {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+
+}
+
+.column_wide {
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 400px;
+
+}
+
+.column_narrow {
+    padding: 40px;
+    flex-grow: 0;
+    flex-basis: 400px;
+}
+
+.bottom {
+    align-self: stretch;
+
+
+
+
+    /*------FØRSTE CSS-------*/
+    #ommig {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-image: url(img/om-mig-bagrund-magenta.png);
+        width: 100%;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        padding-top: 8em;
+        padding-bottom: 3em;
+        margin-bottom: -0.5em;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: visible;
+        background-size: cover;
+        align-items: baseline;
+
+
+    }
+
+
+    #ommig .columnpige {
+
+        flex-grow: 1;
+        flex-basis: 100px;
+        position: relative;
+        align-self: center;
+    }
+
+
+    #ommig .columntekst p {
+
+        flex-grow: 2;
+        margin-left: 2vw;
+        flex-basis: 400px;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    /*------------------  OM MIG ANIMATION  --------------*/
+    #pige_sprite {
+        background-image: url(nyepiger-4.svg);
+        position: relative;
+        background-size: 300% 100%;
+        width: 15vw;
+        height: 15vw;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+}
+
+.pige_move_right {
+    animation-name: pige_move_right_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+
+}
+
+@keyframes pige_move_right_kf {
+    0% {
+        left: -60%;
+    }
+    100% {
+        left: 60%;
+    }
+}
+
+.pige_walkcycle {
+    animation-name: pige_walkcykle_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(3);
+}
+
+@keyframes pige_walkcykle_kf {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -300% 0%;
+    }
+}

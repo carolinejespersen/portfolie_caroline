@@ -1,0 +1,622 @@
+/*----------------body --------*/
+
+    {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*----------------  skriveeffekt  --------*/
+
+/* DEMO-SPECIFIC STYLES */
+
+.typewriter h1 {
+    font-size: 300%;
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    flex-wrap: wrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+    margin-top: -30%;
+    margin-left: 26vw;
+
+}
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: mediumpurple
+    }
+}
+
+/*----------------  parent  ------------*/
+
+.sectionwrapper_header {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-image: url(img/forside-paere.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 40em;
+    padding-bottom: 5em;
+    margin-bottom: 3px;
+
+}
+
+
+#forside {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*------------------  Header baggrund  --------------*/
+
+* {
+    color: white;
+    text-decoration: none;
+}
+
+
+.billeder {
+    margin: 0 em;
+}
+
+
+/*------------------  OM MIG test  ------*/
+
+.sectionwrapper_ommig {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-image: url(img/om-mig-bagrund-magenta.png);
+
+}
+
+.column_wide {
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin-left: 2vw;
+}
+
+.column_narrow {
+    padding: 40px;
+    flex-grow: 4;
+    flex-basis: 200px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bottom {
+    align-self: stretch;
+}
+
+/*------------------  OM MIG  --------------*/
+
+/*#ommig {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(img/om-mig-bagrund-magenta.png);
+    width: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 8em;
+    padding-bottom: 3em;
+    margin-bottom: -0.5em;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: visible;
+    background-size: cover;
+    align-items: baseline;
+
+
+}
+
+
+#ommig .columnpige {
+
+    flex-grow: 1;
+    flex-basis: 100px;
+    position: relative;
+    align-self: center;
+}
+
+
+#ommig .columntekst p {
+
+    flex-grow: 2;
+    margin-left: 2vw;
+    flex-basis: 400px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/*------------------  OM MIG ANIMATION  --------------*/
+
+#pige_sprite {
+    background-image: url(nyepiger-4.svg);
+    position: relative;
+    background-size: 340% 100%;
+    width: 24vw;
+    height: 24vw;
+    left: 6vw;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.pige_move_right {
+    animation-name: pige_move_right_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+
+}
+
+@keyframes pige_move_right_kf {
+    0% {
+        left: -60%;
+    }
+    100% {
+        left: 60%;
+    }
+}
+
+.pige_walkcycle {
+    animation-name: pige_walkcykle_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(3);
+}
+
+@keyframes pige_walkcykle_kf {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -300% 0%;
+    }
+}
+
+
+/*------------------  CONTAINER  --------------*/
+
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: .2vw;
+
+}
+
+/*------------------  Billede 1  --------------*/
+
+#a2 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1vw;
+
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a2 .column1 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  tekst 01  --------*/
+
+#a02 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 41.8vw;
+
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a02 .column02 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  Billede 2  --------------*/
+
+#a3 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 1vw;
+    left: 50.5vw;
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a3 .column2 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+
+/*------------------  tekst 02  --------*/
+
+#a03 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 41.8vw;
+    left: 50.5vw;
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a03 .column03 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  Billede 3  --------------*/
+
+#a4 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 49.9vw;
+
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a4 .column3 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  tekst 03  --------*/
+
+#a04 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 88.4vw;
+
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a04 .column04 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  Billede 4  --------------*/
+
+#a5 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 49.9vw;
+    left: 50.5vw;
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a5 .column4 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  tekst 04  --------*/
+
+#a05 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    left: 50.5vw;
+    margin-top: 88.2vw;
+
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a05 .column05 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  Billede 5  --------------*/
+
+#a6 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 96.3vw;
+
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a6 .column5 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  tekst 05  --------*/
+
+#a06 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 134vw;
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a06 .column06 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  Billede 6  --------------*/
+
+#a7 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 96.3vw;
+    left: 50.5vw;
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a7 .column6 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  tekst 06  --------*/
+
+#a07 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 134vw;
+    left: 50.5vw;
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a07 .column07 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  Billede 7  --------------*/
+
+#a8 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 142.2vw;
+    left: 50.5vw;
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a8 .column7 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  tekst 07  --------*/
+
+#a08 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 183vw;
+
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a08 .column08 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  Billede 8  --------------*/
+
+#a9 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 142.2vw;
+    /*left: 2vw;*/
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a9 .column8 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  tekst 08  --------*/
+
+#a09 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 183vw;
+    left: 50.5vw;
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a09 .column09 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  Billede 9  --------------*/
+
+#a10 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 191.2vw;
+    /*left: 2vw;*/
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a10 .column9 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  tekst 09  --------*/
+
+#a010 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 232vw;
+
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a010 .column010 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  Billede 10  --------------*/
+
+#a11 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 191.2vw;
+    left: 50.5vw;
+    margin-left: 0vw;
+    position: absolute;
+
+}
+
+#a11 .column10 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  tekst 10  --------*/
+
+#a011 img {
+    width: 49%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 232vw;
+    left: 50.5vw;
+
+    margin-left: 0vw;
+    position: absolute;
+}
+
+#a011 .column010 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+/*------------------  Billede 11  --------------*/
+
+/*------------------  Billede 12  --------------*/
+
+/*------------------  Billede 13  --------------*/
+
+/*------------------  Billede 14  --------------*/
