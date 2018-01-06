@@ -9,28 +9,17 @@ function startPige() {
     $("#pige_container").addClass("pige_move_right");
     $("#pige_sprite").addClass("pige_walkcycle");
 
-    $("#pige_container").on("animationend", startBange);
+    $("#pige_container").on("animationend", startShow);
 }
 
 //---------------------MAND BLIVER BANGE---------------------
-function startBange() {
-    console.log("mand bliver bange");
+function startShow() {
+    console.log("pigen viser teksten");
 
-    $("#pige_container").off("animationend", startBange);
+    $("#pige_container").off("animationend", startShow);
 
-    $("#pige_sprite").addClass("pige_bange")
+    $("#pige_sprite").addClass("pige_show")
 
-    $("#pige_container").on("animationend", startThinking);
+    $("#pige_container").on("animationend")
 
-}
-
-//--------------------MAND TÆNKER---------------------
-function startThinking() {
-    console.log("mand tænker");
-    $("#lion_container").removeClass("lion_start_pos");
-    $("#lion_container").off("animationend", startThinking);
-
-    $("#taleboble_svar").addClass("show_taleboble");
-
-    $("#lion_container").on("animationend", startChoose);
 }

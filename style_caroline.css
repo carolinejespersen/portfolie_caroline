@@ -16,7 +16,7 @@ body {
 .typewriter {
     width: 100%;
     position: absolute;
-    top: 300px;
+    top: 360px;
     max-width: 100%;
     display: flex;
 }
@@ -73,7 +73,6 @@ body {
 .sectionwrapper_header {
     display: flex;
     position: relative;
-    width: 100%;
     background-image: url(img/forside-paere.png);
     background-size: cover;
     width: 100%;
@@ -82,7 +81,7 @@ body {
     background-repeat: no-repeat;
     padding-top: 40em;
     padding-bottom: 5em;
-    margin-bottom: 3px;
+    margin-bottom: 12px;
 
 }
 
@@ -144,14 +143,14 @@ body {
 }
 
 .column_wide {
-    padding: 10px;
+    padding: 20px;
     flex-grow: 1;
     flex-basis: 200px;
     margin-left: 2vw;
 }
 
 .column_narrow {
-    padding: 40px;
+    padding: 20px;
     flex-grow: 4;
     flex-basis: 200px;
     font-family: 'Raleway', sans-serif;
@@ -207,6 +206,8 @@ body {
 
 #pige_container {
     position: relative;
+    margin-top: 7vw;
+
 }
 
 #pige_sprite {
@@ -214,6 +215,7 @@ body {
     background-size: 900% 200%;
     width: 20vw;
     height: 20vw;
+
 }
 
 .pige_start_pos {
@@ -254,16 +256,16 @@ body {
 }
 
 
-/***mannd_BANGE****/
+/***pige-show****/
 
-.pige_bange {
-    animation-name: pige_bange_kf;
+.pige_show {
+    animation-name: pige_show_kf;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: steps(5);
 }
 
-@keyframes pige_bange_kf {
+@keyframes pige_show_kf {
     0% {
         background-position: 0% -100%;
     }
@@ -308,7 +310,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 41.8vw;
+    margin-top: 41.7vw;
 
     margin-left: 0vw;
     position: absolute;
@@ -346,7 +348,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 41.8vw;
+    margin-top: 41.7vw;
     left: 50.5vw;
     margin-left: 0vw;
     position: absolute;
@@ -359,13 +361,13 @@ body {
 
 }
 
-/*------------------  Billede 3  --------------*/
+/*------------------  Billede 3(4)  --------------*/
 
 #a4 img {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 49.9vw;
+    margin-top: 49.8vw;
 
     margin-left: 50.5vw;
     position: absolute;
@@ -379,13 +381,13 @@ body {
 
 }
 
-/*------------------  tekst 03  --------*/
+/*------------------  tekst 03(4)  --------*/
 
 #a04 img {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 90.7vw;
+    margin-top: 90.5vw;
 
     margin-left: 50.5vw;
     position: absolute;
@@ -398,13 +400,13 @@ body {
 
 }
 
-/*------------------  Billede 4  --------------*/
+/*------------------  Billede 4(3)  --------------*/
 
 #a5 img {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 49.9vw;
+    margin-top: 49.8vw;
     left: 0vw;
     margin-left: 0vw;
     position: absolute;
@@ -418,14 +420,14 @@ body {
 
 }
 
-/*------------------  tekst 04  --------*/
+/*------------------  tekst 04 (3) --------*/
 
 #a05 img {
     width: 49%;
     max-width: 100%;
     height: auto;
     left: 0vw;
-    margin-top: 90.7vw;
+    margin-top: 90.5vw;
 
     margin-left: 0vw;
     position: absolute;
@@ -444,7 +446,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 98.9vw;
+    margin-top: 98.7vw;
 
     margin-left: 0vw;
     position: absolute;
@@ -464,7 +466,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 139.7vw;
+    margin-top: 139.4vw;
     margin-left: 0vw;
     position: absolute;
 }
@@ -482,7 +484,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 98.9vw;
+    margin-top: 98.7vw;
     left: 50.5vw;
     margin-left: 0vw;
     position: absolute;
@@ -502,7 +504,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 139.7vw;
+    margin-top: 139.4vw;
     left: 50.5vw;
     margin-left: 0vw;
     position: absolute;
@@ -515,13 +517,13 @@ body {
 
 }
 
-/*------------------  Billede 7  --------------*/
+/*------------------  Billede 7 (8) --------------*/
 
 #a8 img {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 147.8vw;
+    margin-top: 147.5vw;
     left: 50.5vw;
     margin-left: 0vw;
     position: absolute;
@@ -541,7 +543,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 188.6vw;
+    margin-top: 188.3vw;
 
     margin-left: 0vw;
     position: absolute;
@@ -554,13 +556,13 @@ body {
 
 }
 
-/*------------------  Billede 8  --------------*/
+/*------------------  Billede 8 (7) --------------*/
 
 #a9 img {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 147.8vw;
+    margin-top: 147.5vw;
     /*left: 2vw;*/
     margin-left: 0vw;
     position: absolute;
@@ -580,7 +582,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 188.6vw;
+    margin-top: 188.3vw;
     left: 50.5vw;
     margin-left: 0vw;
     position: absolute;
@@ -599,7 +601,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 196.8vw;
+    margin-top: 196.4vw;
     /*left: 2vw;*/
     margin-left: 0vw;
     position: absolute;
@@ -619,7 +621,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 237.6vw;
+    margin-top: 237.1vw;
 
     margin-left: 0vw;
     position: absolute;
@@ -638,7 +640,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 196.8vw;
+    margin-top: 196.4vw;
     left: 50.5vw;
     margin-left: 0vw;
     position: absolute;
@@ -658,7 +660,7 @@ body {
     width: 49%;
     max-width: 100%;
     height: auto;
-    margin-top: 237.6vw;
+    margin-top: 237.1vw;
     left: 50.5vw;
 
     margin-left: 0vw;
@@ -677,12 +679,17 @@ body {
 .mereomprojektet {
     /*display: flex;
     flex-wrap: wrap;*/
-    justify-content: space-between;
+    margin: 0;
+    /*justify-content: space-between;*/
     height: 100%;
     width: 100%;
+    max-width: 100%;
     background-image: url(img/bl%C3%A5-baggrund.png);
     margin-left: 2vw;
     margin-right: 2vw;
+    padding-bottom: 5em;
+    margin-bottom: 3px;
+    background-size: cover;
 }
 
 .lys h1 {
@@ -694,14 +701,26 @@ body {
     text-align: center;
 }
 
+.lys h2 {
+    color: darkblue;
+    margin-top: 10px;
+    flex-grow: 2;
+    flex-basis: 100px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 2vw;
+}
+
 .lys p {
     color: darkblue;
     padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
     flex-grow: 4;
     flex-basis: 200px;
+    font-size: 1.5vw;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-
 
 
 }
