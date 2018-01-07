@@ -81,7 +81,7 @@ body {
     background-repeat: no-repeat;
     padding-top: 40em;
     padding-bottom: 5em;
-    margin-bottom: 12px;
+    margin-bottom: -3px;
 
 }
 
@@ -145,14 +145,18 @@ body {
 .column_wide {
     padding: 20px;
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 100px;
     margin-left: 2vw;
 }
 
+
+
+
+
 .column_narrow {
     padding: 20px;
-    flex-grow: 4;
-    flex-basis: 200px;
+    flex-grow: 2;
+    flex-basis: 400px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -206,7 +210,7 @@ body {
 
 #pige_container {
     position: relative;
-    margin-top: 7vw;
+    margin-top: 6vw;
 
 }
 
@@ -216,6 +220,20 @@ body {
     width: 20vw;
     height: 20vw;
 
+}
+
+@media all and (max-width: 901px) {
+    #pige_sprite {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media all and (max-width: 401px) {
+    #pige_sprite {
+        width: 40vw;
+        height: 40vw;
+    }
 }
 
 .pige_start_pos {
@@ -708,7 +726,6 @@ body {
     flex-basis: 100px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    font-size: 2vw;
 }
 
 .lys p {
@@ -718,7 +735,6 @@ body {
     padding-right: 100px;
     flex-grow: 4;
     flex-basis: 200px;
-    font-size: 1.5vw;
     font-family: 'Raleway', sans-serif;
     text-align: center;
 
