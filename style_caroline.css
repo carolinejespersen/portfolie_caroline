@@ -151,8 +151,6 @@ body {
 
 
 
-
-
 .column_narrow {
     padding: 20px;
     flex-grow: 2;
@@ -163,6 +161,35 @@ body {
 .bottom {
     align-self: stretch;
 }
+
+.ikoner img {
+    flex-basis: 100px;
+    flex-grow: 1;
+    width: 5vw;
+    height: 5vw;
+    padding: 10px;
+    margin-left: 50px;
+
+}
+
+@media all and (max-width: 901px) {
+    .ikoner img {
+        width: 6vw;
+        height: 6vw;
+    }
+}
+
+@media all and (max-width: 501px) {
+    .ikoner img {
+        width: 8vw;
+        height: 8vw;
+    }
+}
+
+
+
+
+
 
 /*------------------  OM MIG  --------------*/
 
